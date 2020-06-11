@@ -1,6 +1,12 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "permissions": [
+    "serial",
+    "storage",
+    "videoCapture",
+    "https://fruityvice.com"
+  ],
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,4 +28,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+
 }

@@ -1,0 +1,62 @@
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+    border-bottom: 5px solid rgb(20, 204, 112);
+}
+.pagination{
+    margin-left: 8rem;
+    
+}
+.header{
+    border-bottom: 2px solid black;
+}
+
+.backgrond{
+    background-color: rgb(197, 219, 217);
+}
+.form-header{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+  
+}
+.subheading{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+span{
+    color: #f44336;
+}
+.form-fied{
+    height: 50px;
+    padding: 10px;
+    margin-left: 5px;
+   
+}
+.form-fied:focus{
+    outline: none;
+    background-color: rgb(173, 173, 166);
+    color: white;
+    border-radius: 100px;
+}
+.movie{
+    width: 300px;
+}
+.year{
+    width: 150px;
+}
+.search-btn{
+    height: 50px;
+    width: 100px;
+    background: #f44336;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+}
+.search-btn:hover{
+    background: #bb0d00;
+    cursor: pointer;
+}
